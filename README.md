@@ -29,7 +29,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 - Solution URL: (https://github.com/korcakSEA/profile-card-component-bootstrap.git)
 - Vanilla CSS : (https://github.com/korcakSEA/profile-card-component-main.git)
-- Live Site URL: (https://your-live-site-url.com)
+- Live Site URL: (https://korcaksea.github.io/profile-card-component-bootstrap/)
 
 ## My process
 
