@@ -1,0 +1,42 @@
+:root {
+
+    /* === Bootstrap-style Variables === */
+    --primary: hsl(185, 75%, 39%);       /* Blue 600 */
+    --dark: hsl(229, 23%, 23%);          /* Navy 950 */
+    --secondary: hsl(227, 10%, 46%);     /* Gray 500 */
+    --light: hsl(225, 10%, 92%);         /* Gray 100 */
+
+    /* Font */
+    --font-primary: "Kumbh Sans", sans-serif;
+}
+
+/* Element-level Global Styling */
+body{
+    background-color: var(--primary);
+    font-family: var(--font-primary);
+
+    background-image: url('./images/bg-pattern-top.svg'),
+     url('./images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat, no-repeat;
+    /* background-images were sent to oposite corner, so easy to maintain as i dont have the any UI design doc */
+    background-position: bottom 45vh right 45vw, top 40vh left 40vw;
+}
+
+/* Global Styling */
+.stats__tags{
+    font-size: 0.75rem;
+    letter-spacing: 0.7px;
+}
+
+/* Utility Styling, some Bottstrap utility classes overriden */
+.fs-6{
+    font-size: 1.125rem !important;
+}
+
+.text-primary{
+    color: var(--dark) !important;
+}
+
+.text-secondary{
+    color: var(--secondary) !important;
+}
